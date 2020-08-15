@@ -1,0 +1,98 @@
+[
+  {
+    "title": "The Gulag Archipelago",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51niMh0zmML._SX324_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Aleksandr Solzhenitsyn",
+    "inProgress": true,
+    "audible": false
+  },
+  {
+    "title": "Man's Search For Meaning",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41nLuZrSbNL._SX322_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Viktor E. Frankl",
+    "inProgress": true,
+    "audible": false
+  },
+  {
+    "title": "Domain Modeling Made Functional",
+    "subTitle": "Tackle Software Complexity with Domain-Driven Design and F#",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/511O5zAOJiL._SX415_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Scott Wlaschin",
+    "inProgress": true,
+    "audible": false
+  },
+  {
+    "title": "Clean Architecture",
+    "subTitle": "A Craftsman's Guide to Software Structure and Design",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/516tg-5b2ZL._SX380_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Robert C. Martin",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "How to Destroy America in Three Easy Steps",
+    "imageUrl": "https://m.media-amazon.com/images/I/91Aj-SVNdHL._AC_UY218_.jpg",
+    "year": 2020,
+    "author": "Ben Shapiro",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Stamped: Racism, Antiracism, and You",
+    "subTitle": "A Remix of the National Book Award-winning Stamped from the Beginning",
+    "imageUrl": "https://m.media-amazon.com/images/I/91aTCe2b-ZL._AC_UY218_.jpg",
+    "year": 2020,
+    "author": "Jason Reynolds and Ibram X. Kendi",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Plain, Honest Men",
+    "subTitle": "The Making of the American Constitution",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5178g-SaXxL._SX331_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Richard Beeman",
+    "inProgress": true,
+    "audible": false
+  },
+  {
+    "title": "1984",
+    "subTitle": "New Classic Edition",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91AXG-rkZJL.SR160,240_BG243,243,243.jpg",
+    "year": 2020,
+    "author": "George Orwell",
+    "inProgress": true,
+    "audible": true
+  },
+  {
+    "title": "The United States of Socialism",
+    "subTitle": "Who's Behind It. Why It's Evil. How to Stop It.",
+    "imageUrl": "https://m.media-amazon.com/images/I/51eYLMzGBbL.jpg",
+    "year": 2020,
+    "author": "Dinesh D'Souza",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Bonhoeffer",
+    "subTitle": "Pastor, Martyr, Prophet, Spy",
+    "imageUrl": "https://m.media-amazon.com/images/I/41YkrGY8eZL.jpg",
+    "year": 2020,
+    "author": "Eric Metaxas, Timothy Keller",
+    "inProgress": true,
+    "audible": true
+  },
+  {
+    "title": "Republicans Buy Sneakers, Too",
+    "subTitle": "How the Left Is Ruining Sports with Politics",
+    "imageUrl": "https://m.media-amazon.com/images/I/51dZHKx0j9L._SY346_.jpg",
+    "year": 2020,
+    "author": "Clay Travis",
+    "inProgress": false,
+    "audible": true
+  }
+]

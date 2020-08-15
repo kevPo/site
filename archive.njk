@@ -1,0 +1,15 @@
+---
+layout: layout.njk
+permalink: /posts/
+---
+
+<h1>ArchivSDasde</h1>
+
+{% set postslist = collections.posts %}
+<ol>
+{% for post in collections.posts | reverse %}
+  <li>
+    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+  </li>
+{% endfor %}
+</ol>

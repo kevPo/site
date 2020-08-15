@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav h1 {
+  font-family: 'Made Dillan Regular';
+}
+
+nav ul {
+  display: flex;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: .5em;
+}

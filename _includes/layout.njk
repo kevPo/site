@@ -1,0 +1,58 @@
+<!--
+                                                                                             
+                                                                                             
+kkkkkkkk                                                 PPPPPPPPPPPPPPPPP                   
+k::::::k                                                 P::::::::::::::::P                  
+k::::::k                                                 P::::::PPPPPP:::::P                 
+k::::::k                                                 PP:::::P     P:::::P                
+ k:::::k    kkkkkkk eeeeeeeeeeee  vvvvvvv           vvvvvvvP::::P     P:::::P  ooooooooooo   
+ k:::::k   k:::::kee::::::::::::ee v:::::v         v:::::v P::::P     P:::::Poo:::::::::::oo 
+ k:::::k  k:::::ke::::::eeeee:::::eev:::::v       v:::::v  P::::PPPPPP:::::Po:::::::::::::::o
+ k:::::k k:::::ke::::::e     e:::::e v:::::v     v:::::v   P:::::::::::::PP o:::::ooooo:::::o
+ k::::::k:::::k e:::::::eeeee::::::e  v:::::v   v:::::v    P::::PPPPPPPPP   o::::o     o::::o
+ k:::::::::::k  e:::::::::::::::::e    v:::::v v:::::v     P::::P           o::::o     o::::o
+ k:::::::::::k  e::::::eeeeeeeeeee      v:::::v:::::v      P::::P           o::::o     o::::o
+ k::::::k:::::k e:::::::e                v:::::::::v       P::::P           o::::o     o::::o
+k::::::k k:::::ke::::::::e                v:::::::v      PP::::::PP         o:::::ooooo:::::o
+k::::::k  k:::::ke::::::::eeeeeeee         v:::::v       P::::::::P         o:::::::::::::::o
+k::::::k   k:::::kee:::::::::::::e          v:::v        P::::::::P          oo:::::::::::oo 
+kkkkkkkk    kkkkkkk eeeeeeeeeeeeee           vvv         PPPPPPPPPP            ooooooooooo   
+                                                                                             
+                                                                                             
+                                                                                             
+                                                                                             
+                                                                                             
+                                                                                             
+-->                                                                                        
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta chaset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kevpo | {{title}}</title>
+  {%- set css -%}
+    {% include "css/index.css" %}
+    {% include "css/nav.css" %}
+    {% include "css/grid.css" %}
+  {%- endset %}
+  <style>
+    {{ css | safe }}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">
+      <h1>kevPo</h1>
+    </a>
+    <ul>
+      <li><a href="/posts">Posts</a></li>
+      <li><a href="/bookshelf">Bookshelf</a></li>
+      <li><a href="/">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    {{content | safe}}
+  </main>
+</body>
+</html>

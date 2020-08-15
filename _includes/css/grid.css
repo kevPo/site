@@ -1,0 +1,37 @@
+.home-grid {
+  margin: 0 auto;
+  max-width: 80em;
+}
+
+.home-grid #intro {
+  align-items: center;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+@media (min-width: 33em) {
+  .home-grid #intro {
+      grid-template-columns: 3fr 5fr;
+      grid-gap: 1rem;
+      padding-top: 1rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .home-grid #intro {
+    grid-template-columns: 5fr 3fr;
+    grid-gap: 0rem;
+  }
+  
+  .intro-text {
+    grid-column:  1;
+    grid-row: 1;
+  }
+
+  .intro-pic {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
