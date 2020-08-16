@@ -42,17 +42,25 @@ kkkkkkkk    kkkkkkk eeeeeeeeeeeeee           vvv         PPPPPPPPPP            o
 </head>
 <body>
   <nav>
-    <a href="/">
+    <a class="{% if '/' == page.url %}nav-item-active{% endif %}" href="/">
       <h1>kevPo</h1>
     </a>
     <ul>
-      <li><a href="/posts">Posts</a></li>
-      <li><a href="/bookshelf">Bookshelf</a></li>
-      <li><a href="/">About</a></li>
+      <li><a class="{% if '/posts/' == page.url %}nav-item-active{% endif %}" href="/posts">Posts</a></li>
+      <li><a class="{% if '/bookshelf/' == page.url %}nav-item-active{% endif %}" href="/bookshelf">Bookshelf</a></li>
+      <li><a class="{% if '/about/' == page.url %}nav-item-active{% endif %}" href="/">About</a></li>
     </ul>
   </nav>
   <main>
     {{content | safe}}
   </main>
+  <footer>
+    <ul>
+      <li>© 2020 Kevin Poston</li>
+      <li><a href="https://twitter.com/kevpo">Twitter</a></li>
+      <li><a href="https://github.com/kevpo">GitHub</a></li>
+    </ul>
+
+  </footer>
 </body>
 </html>
