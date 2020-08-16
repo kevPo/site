@@ -16,15 +16,6 @@
     "audible": false
   },
   {
-    "title": "Domain Modeling Made Functional",
-    "subTitle": "Tackle Software Complexity with Domain-Driven Design and F#",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/511O5zAOJiL._SX415_BO1,204,203,200_.jpg",
-    "year": 2020,
-    "author": "Scott Wlaschin",
-    "inProgress": true,
-    "audible": false
-  },
-  {
     "title": "Clean Architecture",
     "subTitle": "A Craftsman's Guide to Software Structure and Design",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/516tg-5b2ZL._SX380_BO1,204,203,200_.jpg",
@@ -83,7 +74,7 @@
     "imageUrl": "https://m.media-amazon.com/images/I/41YkrGY8eZL.jpg",
     "year": 2020,
     "author": "Eric Metaxas, Timothy Keller",
-    "inProgress": true,
+    "inProgress": false,
     "audible": true
   },
   {
@@ -94,5 +85,14 @@
     "author": "Clay Travis",
     "inProgress": false,
     "audible": true
+  },
+  {
+    "title": "Domain Modeling Made Functional",
+    "subTitle": "Tackle Software Complexity with Domain-Driven Design and F#",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/511O5zAOJiL._SX415_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Scott Wlaschin",
+    "inProgress": true,
+    "audible": false
   }
 ]
