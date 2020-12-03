@@ -56,7 +56,16 @@
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91AXG-rkZJL.SR160,240_BG243,243,243.jpg",
     "year": 2020,
     "author": "George Orwell",
-    "inProgress": true,
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Animal Farm",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41NzDuSdIfL._SX277_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "George Orwell",
+    "inProgress": false,
     "audible": true
   },
   {
@@ -92,7 +101,538 @@
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/511O5zAOJiL._SX415_BO1,204,203,200_.jpg",
     "year": 2020,
     "author": "Scott Wlaschin",
-    "inProgress": true,
+    "inProgress": false,
     "audible": false
+  },
+  {
+    "title": "Clean Code",
+    "subTitle": "A Handbook of Agile Software Craftsmanship",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+    "year": 2012,
+    "author": "Robert C. Martin",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Clean Coder",
+    "subTitle": "A Code of Conduct for Professional Programmers",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51+NUIgEc9L._SX383_BO1,204,203,200_.jpg",
+    "year": 2014,
+    "author": "Robert C. Martin",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Agile Principles, Patterns, and Practices in C#",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51rdbk2iTQL._SX372_BO1,204,203,200_.jpg",
+    "year": 2014,
+    "author": "Robert C. Martin",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Domain-Driven Design",
+    "subTitle": "Tackling Complexity in the Heart of Software",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51sZW87slRL._SX375_BO1,204,203,200_.jpg",
+    "year": 2011,
+    "author": "Eric Evans",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/410RTQezHYL._SX326_BO1,204,203,200_.jpg",
+    "year": 2014,
+    "author": "Donald A. Norman",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Design Patterns",
+    "subTitle": "Elements of Reusable Object-Oriented Software",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+    "year": 2014,
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Elegant Objects",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41moXb5PntL._SX327_BO1,204,203,200_.jpg",
+    "year": 2016,
+    "author": "Yegor Bugayenko",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Joel On Software",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5141J2J8evL._SX331_BO1,204,203,200_.jpg",
+    "year": 2015,
+    "author": "Joel Spolsky",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Crush It!",
+    "subTitle": "Why NOW Is the Time to Cash in on Your Passion",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51jTTziN3dL._SX328_BO1,204,203,200_.jpg",
+    "year": 2016,
+    "author": "Gary Vaynerchuk",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Hatching Twitter",
+    "subTitle": "A True Story of Money, Power, Friendship, and Betrayal",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51KYEujTyVL._SX324_BO1,204,203,200_.jpg",
+    "year": 2016,
+    "author": "Nick Bilton",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Draplin Design Co",
+    "subTitle": "Pretty Much Everything",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61Vs4Iyuc+L._SX394_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Ed Catmull",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Nature of Software Development",
+    "subTitle": "Keep It Simple, Make It Valuable, Build It Piece by Piece",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Ehd9aWRGL._SX415_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Ron Jeffries",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Goal",
+    "subTitle": "A Business Graphic Novel",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61F+5idSU9L._SX344_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Eliyahu M. Goldratt",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Goal",
+    "subTitle": "A Process of Ongoing Improvement",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/519C2Gz-v2L._SX334_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Eliyahu M. Goldratt",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "SVG Animations",
+    "subTitle": "From Common UX Implementations to Complex Responsive Animation",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51iV+wxhw9L._SX374_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Sarah Drasner",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Information Architecture",
+    "subTitle": "For the Web and Beyond",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Kv-kLxZFL._SX331_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Louis Rosenfeld, Peter Morville, Jorge Arango",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Monolith to Microservices",
+    "subTitle": "Evolutionary Patterns to Transform Your Monolith",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51QKwzDE4FL._SX379_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Sam Newman",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The DevOps Handbook",
+    "subTitle": "How to Create World-Class Agility, Reliability, and Security in Technology Organizations",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Z6uQ57ilL._SX324_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Phoenix Project",
+    "subTitle": "A Novel about IT, DevOps, and Helping Your Business Win",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51bAF5pdyeL._SX332_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Gene Kim, Kevin Behr, George Spafford",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "The Unicorn Project",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51A4T36jisL._SX334_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Gene Kim",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Accelerate",
+    "subTitle": "The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41TLwbsl8eL._SX329_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Nicole Forsgren, Jez Humble, Gene Kim",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Steve Jobs",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41dKkez-1rL._SX326_BO1,204,203,200_.jpg",
+    "year": 2013,
+    "author": "Walter Issacson",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Launch It",
+    "subTitle": "300+ things I've learned as a Designer, Developer and Creative Director. A handbook for digital creatives.",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41GrIHTM5EL._SX331_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Shane Mielke",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Creativity Inc.",
+    "subTitle": "Overcoming the Unseen Forces That Stand in the Way of True Inspiration",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41xzn-l9yPL._SX327_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Ed Catmull, Amy Wallace",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Work Rules",
+    "subTitle": "Insights from Inside Google That Will Transform How You Live and Lead",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Df4YVLvbL._SX329_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Laszlo Bock",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Thoughts on Design",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51HJZGDDRWL._SX432_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Paul Rand",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Creative Habit",
+    "subTitle": "Learn It and Use It for Life",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51U-BkmvXWL._SX375_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Twyla Tharp",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Don't Make Me Think",
+    "subTitle": "A Common Sense Approach to Web Usability",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41MdP5Tn0wL._SX387_BO1,204,203,200_.jpg",
+    "year": 2016,
+    "author": "Steve Krug",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Are Your Lights On?",
+    "subTitle": "How to Figure Out What the Problem Really Is",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/518RFH9TYYL._SX314_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Donald C. Gause",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Rework",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41woojfwaaL._SX329_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Jason Fried, DHH",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Remote",
+    "subTitle": "Office Not Required",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41L25AV2ZmL._SX352_BO1,204,203,200_.jpg",
+    "year": 2016,
+    "author": "Jason Fried, DHH",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Getting Real",
+    "subTitle": "The Smarter, Faster, Easier Way to Build a Successful Web Application",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/318qvclsxbL._SX331_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Jason Fried, DHH",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Radical Candor",
+    "subTitle": "How to Get What You Want, By Saying What You Mean",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51b2BNTv7IL._SX328_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Kim Scott",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Zag",
+    "subTitle": "The Number One Strategy of High-Performance Brands",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41dWs5fmeWL._SX350_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Marty Neumeier",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Obstacle Is The Way",
+    "subTitle": "The Timeless Art of Turning Trials into Triumph",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41d+aa6UYCL._SX352_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Ryan Holiday",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Peak",
+    "subTitle": "Secrets from the New Science of Expertise",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41FMJ7IhIdL._SX330_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Anders Ericsson, Robert Pool",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Flow",
+    "subTitle": "The Psychology of Optimal Experience",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41VLV3ZV-qL._SX326_BO1,204,203,200_.jpg",
+    "year": 2015,
+    "author": "Mihaly Csikszentmihalyi",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Creativity",
+    "subTitle": "Flow and the Psychology of Discovery and Invention",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41lRh4YRWOL._SX326_BO1,204,203,200_.jpg",
+    "year": 2015,
+    "author": "Mihaly Csikszentmihalyi",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Creative Selection",
+    "subTitle": "Inside Apple's Design Process During the Golden Age of Steve Jobs",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41pzvZ24NvL._SX324_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Ken Kocienda",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "The Case For Faith",
+    "subTitle": "A Journalist Investigates the Toughest Objections to Christianity",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/415kwbj8SzL._SX322_BO1,204,203,200_.jpg",
+    "year": 2011,
+    "author": "Lee Strobel",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Competing Against Luck",
+    "subTitle": "The Story of Innovation and Customer Choice",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51uPzq9f3ZL._SX328_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Clayton M. Christensen, Karen Dillon, Taddy Hall, David S. Duncan",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Atomic Habits",
+    "subTitle": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Tlm0GZTXL._SX329_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "James Clear",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Nine Lies About Work",
+    "subTitle": "A Freethinking Leader’s Guide to the Real World",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/414Sifi7ppL._SX335_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "Marcus Buckingham",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Measure What Matters",
+    "subTitle": "How Google, Bono, and the Gates Foundation Rock the World with OKRs",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51G-XiecxvL._SX329_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "John Doerr",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "1776",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51F6OuFKFrL._SX331_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "David McCullough",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "Drive",
+    "subTitle": "The Surprising Truth About What Motivates Us",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ef9z7YKnL._SX331_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Daniel H. Pink",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "ESV Study Bible",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41oS+XjD14L._SY344_BO1,204,203,200_.jpg",
+    "year": 2019,
+    "author": "",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "KJV Bible",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41eOFHWpq9L._SX334_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Jesus Is",
+    "subTitle": "Find a New Way to Be Human",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41uZYocNuaL._SX323_BO1,204,203,200_.jpg",
+    "year": 2013,
+    "author": "Judah Smith",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Life Is",
+    "subTitle": "God's Illogical Love Will Change Your Existence",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5145wVeMWaL._SX320_BO1,204,203,200_.jpg",
+    "year": 2015,
+    "author": "Judah Smith",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Crazy Love",
+    "subTitle": "Overwhelmed by a Relentless God",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/31sThjUsnmL._SX331_BO1,204,203,200_.jpg",
+    "year": 2014,
+    "author": "Francis Chan",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Billy Graham",
+    "subTitle": "His Life and Influence",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51v+Cf9QW3L._SX326_BO1,204,203,200_.jpg",
+    "year": 2011,
+    "author": "David Aikman",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Live Love Lead",
+    "subTitle": "Your Best Is Yet to Come!",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51XZRRn9wDL._SX328_BO1,204,203,200_.jpg",
+    "year": 2016,
+    "author": "Brian Houston",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Circle Maker",
+    "subTitle": "Praying Circles Around Your Biggest Dreams and Greatest Fears",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51AjetnAHWL._SX322_BO1,204,203,200_.jpg",
+    "year": 2017,
+    "author": "Mark Batterson",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Multiply",
+    "subTitle": "Disciples Making Disciples",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41AOQ5i4FvL._SX331_BO1,204,203,200_.jpg",
+    "year": 2018,
+    "author": "Francis Chan, David Platt",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Erasing Hell",
+    "subTitle": "What God Said About Eternity, and the Things We've Made Up",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41mAvUQAWHL._SX329_BO1,204,203,200_.jpg",
+    "year": 2013,
+    "author": "Francis Chan",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Unlikely Disciple",
+    "subTitle": "A Sinner's Semester at America's Holiest University",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51InUQ1SHUL._SX321_BO1,204,203,200_.jpg",
+    "year": 2011,
+    "author": "Kevin Roose",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "The Accidental Billionaires",
+    "subTitle": "The Founding of Facebook: A Tale of Sex, Money, Genius and Betrayal",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51MaryuxKRL._SX323_BO1,204,203,200_.jpg",
+    "year": 2011,
+    "author": "Ben Mezrich",
+    "inProgress": false,
+    "audible": true
+  },
+  {
+    "title": "The Toyota Way",
+    "subTitle": "14 Management Principles from the World's Greatest Manufacturer",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Vm0JkM2wL._SX346_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Jeffrey Liker",
+    "inProgress": true,
+    "audible": true
   }
 ]

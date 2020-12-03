@@ -18,6 +18,11 @@ body {
   font-size: 16px;
   display: flex;
   flex-direction: column;
+  background-image: radial-gradient(#E700F1 20%, transparent 20%),
+      radial-gradient(#fafafa 20%, transparent 20%);
+  background-color: #3679F4;
+  background-position: 0 0, 8px 8px;
+  background-size: 8px 8px;
 }
 
 .content {
@@ -68,9 +73,9 @@ a {
 }
 
 .intro-text a {
-  color: #24292e;
+  color: #000;
   line-height: 1.25rem;
-  text-decoration-color: white;
+  text-decoration-color: #E700F1;
   text-underline-offset: 4px;
   text-decoration-thickness: 4px;
 }
@@ -79,8 +84,8 @@ a {
   margin: 0 auto;
   width: 450px;
   max-width: 100%;
-  -webkit-filter: brightness(1.25) contrast(0.85) grayscale(1);
-  filter: brightness(1.25) contrast(0.85) grayscale(1);
+  /* -webkit-filter: brightness(1.25) contrast(0.85) grayscale(1);
+  filter: brightness(1.25) contrast(0.85) grayscale(1); */
 }
 
 .meta {

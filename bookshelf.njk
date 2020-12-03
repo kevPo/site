@@ -30,14 +30,36 @@ layout: page.liquid
 
 .book p {
   padding: 0;
-  margin: 0;
+  margin: 10px 0;
+}
+
+@media (min-width: 33em) {
+  .books{
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+  }
+
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .book h2 {
+    font-size: 1.2rem;
+  }
+
+  .book img {
+    height: 270px;
+  }
 }
 </style>
 
+{% for year, books in books | groupby("year") %}
+<h2>{{ year }}</h2>
 <ul class="books">
     {% for book in books -%}
     <li class="book">
-      <img src="{{book.imageUrl}}" alt="{{book.title}}"/>
+      <img src="{{ book.imageUrl }}" alt="{{ book.title }}"/>
       <div>
         <h2>{{ book.title }}</h2>
         <p>{{ book.subTitle }}</p>
@@ -46,3 +68,4 @@ layout: page.liquid
     </li>
     {% endfor -%}
 </ul>
+{% endfor %}
