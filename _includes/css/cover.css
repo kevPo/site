@@ -1,5 +1,9 @@
-.container > div{
+.main-cover{
   background: url(img/kevpo.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: 450px;
 }
 
 .header {
@@ -11,39 +15,35 @@
 
 .container{
   display: grid;
-  grid-template-columns: 1fr 125px 1fr;
+  grid-template-columns: repeat(2, 1fr);
   height: 100vh;
 }
 
-.container div{
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-size: 450px;
-}
-
-.container div:first-child {
+.header {
   grid-column: 1 / -1;
 }
 
-.container div:last-child {
+.headline{
   grid-column: 1 / -1;
   text-align: center;
 }
 
 .resume {
-  grid-row: 2 / 4;
+  width: 95%;
+  margin-right: auto;
 }
 
+.reading,
 .contact { 
-  grid-row: 3 / 5;
-  grid-column: 3;
-  margin-top: -45px;
+  width: 68%;
+  margin-left: auto;
 }
 
 .about {
-  grid-row: 4;
-  grid-column: 1;
+  width: 55%;
+  margin-right: auto;
+  font-size: 1.25em;
+  line-height: 1.5em;
 }
 
 .about a.nav-link {
