@@ -1,14 +1,26 @@
 .main-cover{
   background: url(img/kevpo.png);
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: center;
-  background-size: 500px;
+  background-size: 400px;
+}
+
+.disclaimer {
+  background-color: var(--thirdaryColor);
+  color: var(--mainColor);
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  padding: 0 1em;
+  font-weight: bold;
 }
 
 .header {
-  height: 100px;
+  height: 50px;
   margin-top: -2em;
   text-align: center;
 }
@@ -25,6 +37,7 @@
 
 .headline{
   grid-column: 1 / -1;
+  justify-self: center;
   text-align: center;
 }
 
@@ -42,7 +55,6 @@
 .about {
   width: 55%;
   margin-right: auto;
-  /* font-size: 1.25em; */
   line-height: 1.5em;
 }
 
@@ -95,16 +107,73 @@ i {
 
 .headline h1{
   font-size: 3.5em;
-  margin: .5em;
+  margin: 0;
 }
 
 .headline p {
   color: var(--mainColor);
   width: 78%;
-  margin: -35px auto;
+  margin: 0 auto;
 }
 
 .headline {
-  padding-bottom: 3em;
   font-size: 1em;
+}
+
+@media (min-width: 414px) {
+  .main-cover {
+    background-size: 475px;
+  }
+}
+
+@media (max-height: 650px) and (min-width: 414px) {
+  .main-cover {
+    background-size: 400px;
+  }
+
+  .header {
+    height: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-cover {
+    background-size: 700px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .main-cover {
+    background-size: 550px;
+  }
+
+  .header {
+    height: 200px;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 70%;
+    grid-gap: 5px;
+    padding: 0 2em;
+  }
+
+  .reading,
+  .contact {
+    width: 55%;
+    margin-right: 75px;
+  }
+
+  .about-container {
+    justify-self: center;
+  }
+
+  .headline h1 {
+    font-size: 3em;
+    margin: 0 0 0 0;
+  }
+
+  .headline p {
+    width: 60%;
+  }
 }

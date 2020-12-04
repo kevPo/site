@@ -39,19 +39,10 @@ p {
   margin: 0;
 }
 
-/* a {
-  color: white;
-  text-decoration-color: #24292e;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 4px;
-} */
-
 .intro-pic {
   margin: 0 auto;
   width: 450px;
   max-width: 100%;
-  /* -webkit-filter: brightness(1.25) contrast(0.85) grayscale(1);
-  filter: brightness(1.25) contrast(0.85) grayscale(1); */
 }
 
 @media (min-width: 50em) {
@@ -62,6 +53,18 @@ p {
 
 @media (min-width: 65em) {
   body {
-    padding: .5rem 5rem;
+    /* padding: 0 5rem; */
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1428) {
+  body {
+    font-size: 30px;
   }
 }
