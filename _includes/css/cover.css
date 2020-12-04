@@ -3,14 +3,14 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-size: 450px;
+  background-position-x: center;
+  background-size: 500px;
 }
 
 .header {
+  height: 100px;
   margin-top: -2em;
-  padding: 0 1em;
   text-align: center;
-  width: 100%;
 }
 
 .container{
@@ -42,7 +42,7 @@
 .about {
   width: 55%;
   margin-right: auto;
-  font-size: 1.25em;
+  /* font-size: 1.25em; */
   line-height: 1.5em;
 }
 
@@ -90,6 +90,7 @@ a.nav-link{
 
 i {
   font-weight: 200;
+  font-size: .75em;
 }
 
 .headline h1{
