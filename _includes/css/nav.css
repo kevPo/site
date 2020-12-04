@@ -1,38 +1,22 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  margin-top: -1.5em;
+  padding: 0 1.5em;
+  text-align: center;
+  width: 100%;
 }
 
-nav a {
-  color: white;
+a.main-nav {
+  color: var(--secondaryColor);
+  font-size: 7em;
+  font-weight: 800;
   text-decoration: none;
 }
 
-nav a:hover,
-nav a:active {
-  text-decoration: underline;
-  text-decoration-color: #24292e;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 4px;
-}
-
-.nav-item-active {
-  text-decoration: underline;
-  text-decoration-color: #24292e;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 4px;
-}
-
-nav h1 {
-  font-family: 'Made Dillan Regular';
-}
-
-nav ul {
+.edition-info {
+  color: var(--thirdaryColor);
   display: flex;
-  font-size: 1em;
-}
-
-nav li {
-  padding: .5em;
+  font-size: .75em;
+  justify-content: space-between;
+  margin-top: -1em;
+  width: 100%;
 }

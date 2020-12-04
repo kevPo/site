@@ -34,6 +34,7 @@ kkkkkkkk    kkkkkkk eeeeeeeeeeeeee           vvv         PPPPPPPPPP            o
   {%- set css -%}
     {% include "css/index.css" %}
     {% include "css/nav.css" %}
+    {% include "css/cover.css" %}
     {% include "css/grid.css" %}
   {%- endset %}
   <style>
@@ -42,27 +43,16 @@ kkkkkkkk    kkkkkkk eeeeeeeeeeeeee           vvv         PPPPPPPPPP            o
 </head>
 <body>
   <div class="content">
-    <nav>
-      <a class="{% if '/' == page.url %}nav-item-active{% endif %}" href="/">
-        <h1>kevPo</h1>
-      </a>
-      <ul>
-        <li><a class="{% if '/posts/' == page.url %}nav-item-active{% endif %}" href="/posts">Posts</a></li>
-        <li><a class="{% if '/bookshelf/' == page.url %}nav-item-active{% endif %}" href="/bookshelf">Bookshelf</a></li>
-        <li><a class="{% if '/about/' == page.url %}nav-item-active{% endif %}" href="/">About</a></li>
-      </ul>
-    </nav>
+    <!-- <nav>
+        <a href="/" class="main-nav">KEVPO</a>
+        <div class="edition-info">
+          <p>ISSUE 1 | DECEMBER 2020</p>
+          <p>KEVPO.DEV</p>
+        </div>
+    </nav> -->
     <main>
       {{content | safe}}
     </main>
   </div>
-  <footer>
-    <ul>
-      <li>© 2020 kevPo</li>
-      <li><a href="https://twitter.com/kevpo">Twitter</a></li>
-      <li><a href="https://github.com/kevpo">GitHub</a></li>
-    </ul>
-
-  </footer>
 </body>
 </html>

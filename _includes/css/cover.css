@@ -1,0 +1,109 @@
+.container > div{
+  background: url(img/kevpo.png);
+}
+
+.header {
+  margin-top: -2em;
+  padding: 0 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 125px 1fr;
+  height: 100vh;
+}
+
+.container div{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: 450px;
+}
+
+.container div:first-child {
+  grid-column: 1 / -1;
+}
+
+.container div:last-child {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.resume {
+  grid-row: 2 / 4;
+}
+
+.contact { 
+  grid-row: 3 / 5;
+  grid-column: 3;
+  margin-top: -45px;
+}
+
+.about {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.about a.nav-link {
+  font-size: 1.5em;
+  width: 70%;
+}
+
+.about a,
+.reading a{
+  color: var(--secondaryColor);
+}
+
+.about a:hover,
+.reading a:hover{
+  color: var(--thirdaryColor);
+}
+
+.contact a,
+.resume a {
+  color: var(--thirdaryColor);
+}
+
+.contact a:hover,
+.resume a:hover {
+  color: var(--secondaryColor);
+}
+
+.left {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.right {
+  text-align: right;
+  padding-right: 1em;
+}
+
+a.nav-link{
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.25em;
+  line-height: 0;
+}
+
+i {
+  font-weight: 200;
+}
+
+.headline h1{
+  font-size: 3.5em;
+  margin: .5em;
+}
+
+.headline p {
+  color: var(--mainColor);
+  width: 78%;
+  margin: -35px auto;
+}
+
+.headline {
+  padding-bottom: 3em;
+  font-size: 1em;
+}
