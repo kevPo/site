@@ -7,7 +7,7 @@
 }
 
 .disclaimer {
-  background-color: var(--thirdaryColor);
+  background-color: var(--secondaryColor);
   color: var(--mainColor);
   height: 100vh;
   display: flex;
@@ -108,6 +108,7 @@ i {
 .headline h1{
   font-size: 3.5em;
   margin: 0;
+  color: var(--thirdaryColor);
 }
 
 .headline p {
@@ -124,8 +125,9 @@ i {
   font-size: 1.5em;
   background-color: var(--mainColor);
   cursor: pointer;
-  border: 5px solid var(--secondaryColor);
+  border: 5px solid var(--thirdaryColor);
   padding: 5px 40px;
+  width: 100%;
 }
 
 @media (min-width: 414px) {
@@ -140,7 +142,7 @@ i {
   }
 
   .header {
-    height: 140px;
+    height: 120px;
   }
 }
 

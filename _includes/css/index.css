@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
 
 :root {
-  --mainColor: #FFF300;
-  --secondaryColor: #1400FD;
-  --thirdaryColor: #000000;
+  --mainColor: #0085ca;
+  --secondaryColor: #000000;
+  --thirdaryColor: #ffffff;
 }
 
 html, body {
