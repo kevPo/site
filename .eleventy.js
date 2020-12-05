@@ -20,7 +20,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("groupedYears", books => {
     const allYears = books.map(d => d.year);
     const years = [...new Set(allYears)].sort((a, b) => b - a); 
-    const groups = years.map(year => ({year, books: books.filter(b => b.year === year)}));
+    const groups = years.map(year => ({year, books: books.filter(b => b.year === year && !b.inProgress)}));
     
     return groups;
   });

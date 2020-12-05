@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 5px solid var(--mainColor);
 }
 
 .book-grid {
@@ -14,4 +15,24 @@
 
 .book-grid div:first-child {
   grid-column: 1 / -1;
+}
+
+@media (min-width: 1140px) {
+  .book-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 1140px) {
+  .book-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 2000px) {
+  .book-grid {
+    width: 50%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+  }
 }

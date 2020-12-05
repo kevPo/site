@@ -12,7 +12,7 @@
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41nLuZrSbNL._SX322_BO1,204,203,200_.jpg",
     "year": 2020,
     "author": "Viktor E. Frankl",
-    "inProgress": true,
+    "inProgress": false,
     "audible": false
   },
   {
@@ -631,15 +631,6 @@
     "audible": true
   },
   {
-    "title": "The Toyota Way",
-    "subTitle": "14 Management Principles from the World's Greatest Manufacturer",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Vm0JkM2wL._SX346_BO1,204,203,200_.jpg",
-    "year": 2020,
-    "author": "Jeffrey Liker",
-    "inProgress": true,
-    "audible": true
-  },
-  {
     "title": "12 Rules for Life",
     "subTitle": "An Antidote to Chaos",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41kspFBwVxL._SX331_BO1,204,203,200_.jpg",
@@ -658,5 +649,32 @@
     "inProgress": false,
     "audible": false,
     "rank": 2
+  },
+  {
+    "title": "The Parasitic Mind",
+    "subTitle": "How Infectious Ideas Are Killing Common Sense",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/417LZDL19jL._SX326_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Gad Saad",
+    "inProgress": true,
+    "audible": false
+  },
+  {
+    "title": "Don't Burn This Book",
+    "subTitle": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41C5URB0YKL._SX322_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Dave Rubin",
+    "inProgress": false,
+    "audible": false
+  },
+  {
+    "title": "Live Not By Lies",
+    "subTitle": "A Manual for Christian Dissidents",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/515KymfQCTL._SX329_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Rod Dreher",
+    "inProgress": false,
+    "audible": false
   }
 ]
