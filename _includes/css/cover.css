@@ -139,7 +139,7 @@ i {
     background-size: 400px;
   }
 
-  .header {
+  .container .header {
     height: 120px;
   }
 }
