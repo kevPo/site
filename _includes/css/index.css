@@ -39,10 +39,13 @@ p {
   margin: 0;
 }
 
-.intro-pic {
-  margin: 0 auto;
-  width: 450px;
-  max-width: 100%;
+h1 {
+  color: var(--thirdaryColor);
+}
+
+.alternative {
+  background-color: var(--secondaryColor);
+  color: var(--thirdaryColor);
 }
 
 @media (min-width: 50em) {

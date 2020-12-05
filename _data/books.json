@@ -111,7 +111,8 @@
     "year": 2012,
     "author": "Robert C. Martin",
     "inProgress": false,
-    "audible": false
+    "audible": false,
+    "rank": 4
   },
   {
     "title": "The Clean Coder",
@@ -516,7 +517,8 @@
     "year": 2018,
     "author": "Daniel H. Pink",
     "inProgress": false,
-    "audible": true
+    "audible": true,
+    "rank": 5
   },
   {
     "title": "ESV Study Bible",
@@ -525,7 +527,8 @@
     "year": 2019,
     "author": "",
     "inProgress": false,
-    "audible": false
+    "audible": false,
+    "rank": 1
   },
   {
     "title": "KJV Bible",
@@ -634,5 +637,25 @@
     "author": "Jeffrey Liker",
     "inProgress": true,
     "audible": true
+  },
+  {
+    "title": "12 Rules for Life",
+    "subTitle": "An Antidote to Chaos",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41kspFBwVxL._SX331_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "Jordan Peterson",
+    "inProgress": false,
+    "audible": false,
+    "rank": 3
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "subTitle": "Your Journey To Mastery, 20th Anniversary Edition (2nd Edition)",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51cUVaBWZzL._SX380_BO1,204,203,200_.jpg",
+    "year": 2020,
+    "author": "David Those, Andy Hunt",
+    "inProgress": false,
+    "audible": false,
+    "rank": 2
   }
 ]

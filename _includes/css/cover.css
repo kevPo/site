@@ -19,10 +19,8 @@
   font-weight: bold;
 }
 
-.header {
+.container .header {
   height: 80px;
-  margin-top: -2em;
-  text-align: center;
 }
 
 .container{
@@ -157,7 +155,7 @@ i {
     background-size: 550px;
   }
 
-  .header {
+  .container .header {
     height: 180px;
   }
 

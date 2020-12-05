@@ -1,61 +1,48 @@
 ---
-title: Bookshelf
+title: BOOKSHELF
 layout: page.liquid
 ---
 
-<style>
-.books {
-    font-size: 0.875em;
-    margin-bottom: calc(1em + 2vw);
-    line-height: 1.2;
-    display: flex;
-    flex-direction: column;
-    display: grid;
-    grid-gap: 1.5em;
-    grid-template-columns: 1fr;
-}
+<div class="fav-grid">
+  <div class=fav-grid--heading>
+    <p>~ FAV FIVE ~</p>
+  </div>
+  {% for book in books | favoriteBooks -%}
+  <div>
+    <img src="{{ book.imageUrl }}" alt="Image of {{book.title}} book cover">
+  </div>
+  {% endfor -%}
+</div>
 
-.book {
-    display: grid;
-    grid-template-columns: 80px 1fr;
-    grid-gap: 1em;
-}
+<div class="alternative">
+  <div class="book-grid">
+    <div>
+      <p>Currently Reading</p>
+    </div>
+    {% for book in books | currentlyReading -%}
+    <div>
+      <img src="{{ book.imageUrl }}" alt="Image of {{book.title}} book cover">
+    </div>
+    {% endfor -%}
+  </div>
 
-.book img {
-    display: block;
-    object-fit: contain;
-    max-width: 100%;
-    height: auto;
-}
+  {% for yearBooks in books | groupedYears -%}
+    <div class="book-grid">
+      <div>
+        <p>{{yearBooks.year}}</p>
+      </div>
+      {% for book in yearBooks.books -%}
+      <div>
+        <img src="{{ book.imageUrl }}" alt="Image of {{book.title}} book cover">
+      </div>
+      {% endfor -%}
+    </div>
+  {% endfor -%}
 
-.book p {
-  padding: 0;
-  margin: 10px 0;
-}
-
-@media (min-width: 33em) {
-  .books{
-    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
-  }
-
-  .book {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .book h2 {
-    font-size: 1.2rem;
-  }
-
-  .book img {
-    height: 270px;
-  }
-}
-</style>
+</div>
 
 {# {% for book in books %} #}
-<ul class="books">
+{# <ul class="books">
     {% for book in books|sort(attribute='year')|reverse -%}
     <li class="book">
       <img src="{{ book.imageUrl }}" alt="{{ book.title }}"/>
@@ -66,7 +53,7 @@ layout: page.liquid
       </div>
     </li>
     {% endfor -%}
-</ul>
+</ul> #}
 {# {% endfor %} #}
 
 {# {% for year, books in books|sort(attribute='year')|reverse|groupby("year") %}

@@ -12,11 +12,13 @@ a.main-nav {
   text-decoration: none;
 }
 
-.edition-info {
-  color: var(--thirdaryColor);
-  display: flex;
-  font-size: .75em;
-  justify-content: space-between;
-  margin-top: -1em;
-  width: 100%;
+.header {
+  margin-top: -2em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.header h1 {
+  margin: -45px 0 0 0;
+  font-size: 4em;
 }
