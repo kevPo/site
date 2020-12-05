@@ -29,9 +29,30 @@ title: 🪕kevpo🪕
     </div>
     <div class="headline">
       <h1>Kevin Poston</h1>
+      <button onclick="changeColors()">🎅</button>
     </div>
   </div>
 </div>
 <div class="disclaimer">
     <p>This site is pretty much just a playground for me, but I'm glad you stopped by!</p>
 </div>
+
+<script>
+  let root = document.documentElement;
+  let christmas = false;
+
+  function changeColors() {
+    christmas = !christmas;
+
+    if (christmas) {
+      root.style.setProperty('--mainColor', "#EA4630");
+      root.style.setProperty('--secondaryColor', "#146B3A");
+      root.style.setProperty('--thirdaryColor', "#ffffff");
+    }
+    else {
+      root.style.setProperty('--mainColor', "#FFF300");
+      root.style.setProperty('--secondaryColor', "#1400FD");
+      root.style.setProperty('--thirdaryColor', "#000000");
+    }
+  }
+</script>

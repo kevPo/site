@@ -20,7 +20,7 @@
 }
 
 .header {
-  height: 50px;
+  height: 80px;
   margin-top: -2em;
   text-align: center;
 }
@@ -120,6 +120,14 @@ i {
   font-size: 1em;
 }
 
+.headline button {
+  font-size: 1.5em;
+  background-color: var(--mainColor);
+  cursor: pointer;
+  border: 5px solid var(--secondaryColor);
+  padding: 5px 40px;
+}
+
 @media (min-width: 414px) {
   .main-cover {
     background-size: 475px;
@@ -132,7 +140,7 @@ i {
   }
 
   .header {
-    height: 120px;
+    height: 140px;
   }
 }
 
@@ -148,7 +156,7 @@ i {
   }
 
   .header {
-    height: 200px;
+    height: 180px;
   }
 
   .container {
