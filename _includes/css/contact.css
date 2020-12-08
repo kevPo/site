@@ -1,0 +1,68 @@
+.social {
+  display: flex;
+  padding: 0 2em;
+  justify-content: space-evenly;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.social svg {
+  width: 50px;
+  fill: var(--secondaryColor);
+}
+
+form {
+  width: 100%;
+  padding: 2em;
+}
+
+form p {
+  padding-bottom: 1em;
+}
+
+form label {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+form button {
+  background-color: var(--secondaryColor);
+  border: none;
+  color: var(--thirdaryColor);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  padding: .5em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+form button:focus {
+  outline: none;
+  border: 6px solid var(--thirdaryColor);
+}
+
+input,
+textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--thirdaryColor);
+  color: var(--secondaryColor);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  font-weight: 200;
+  padding: .5em;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom-width: 6px;
+}
+
+@media (min-width: 1140px) {
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
