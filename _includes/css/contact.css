@@ -46,6 +46,7 @@ textarea {
   background: transparent;
   border: none;
   border-bottom: 2px solid var(--thirdaryColor);
+  border-radius: 0;
   color: var(--secondaryColor);
   font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
