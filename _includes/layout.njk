@@ -44,16 +44,30 @@ kkkkkkkk    kkkkkkk eeeeeeeeeeeeee           vvv         PPPPPPPPPP            o
 </head>
 <body>
   <div class="content">
-    <!-- <nav>
-        <a href="/" class="main-nav">KEVPO</a>
-        <div class="edition-info">
-          <p>ISSUE 1 | DECEMBER 2020</p>
-          <p>KEVPO.DEV</p>
-        </div>
-    </nav> -->
     <main>
       {{content | safe}}
     </main>
   </div>
+
+  <script>
+  let root = document.documentElement;
+
+  function loadTheme() {
+    const theme = sessionStorage.getItem('theme');
+
+    if (theme === "christmas") {
+      root.style.setProperty('--mainColor', "#EA4630");
+      root.style.setProperty('--secondaryColor', "#146B3A");
+      root.style.setProperty('--thirdaryColor', "#ffffff");
+    }
+    else {
+      root.style.setProperty('--mainColor', "#0085ca");
+      root.style.setProperty('--secondaryColor', "#000000");
+      root.style.setProperty('--thirdaryColor', "#ffffff");
+    }
+  }
+
+  window.onpaint = loadTheme();
+  </script>
 </body>
 </html>

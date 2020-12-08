@@ -38,21 +38,12 @@ title: 🪕kevpo🪕
 </div>
 
 <script>
-  let root = document.documentElement;
-  let christmas = false;
+  let christmas = sessionStorage.getItem('theme') === 'christmas';
 
   function changeColors() {
     christmas = !christmas;
-
-    if (christmas) {
-      root.style.setProperty('--mainColor', "#EA4630");
-      root.style.setProperty('--secondaryColor', "#146B3A");
-      root.style.setProperty('--thirdaryColor', "#ffffff");
-    }
-    else {
-      root.style.setProperty('--mainColor', "#0085ca");
-      root.style.setProperty('--secondaryColor', "#000000");
-      root.style.setProperty('--thirdaryColor', "#ffffff");
-    }
+    const theme = christmas ? 'christmas' : '';
+    sessionStorage.setItem('theme', theme);
+    loadTheme();
   }
 </script>
