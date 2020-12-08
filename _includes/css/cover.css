@@ -1,4 +1,4 @@
-.main-cover{
+.main-cover {
   background: url(img/kevpo.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -183,5 +183,16 @@ i {
 
   .headline p {
     width: 60%;
+  }
+}
+
+@media (min-width: 1900px) {
+  a.nav-link {
+    font-size: 1.75em;
+    line-height: 1em;
+  }
+
+  .main-cover {
+    background-size: 650px;
   }
 }
