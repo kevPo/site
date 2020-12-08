@@ -29,7 +29,7 @@ title: 🪕kevpo🪕
     </div>
     <div class="headline">
       <h1>Kevin Poston</h1>
-      <button onclick="changeColors()">🎅</button>
+      <button id="themeChanger" onclick="changeColors()"></button>
     </div>
   </div>
 </div>
@@ -39,11 +39,15 @@ title: 🪕kevpo🪕
 
 <script>
   let christmas = sessionStorage.getItem('theme') === 'christmas';
+  let buttonValue = christmas ? '🙈' : '🎅';
+  document.getElementById('themeChanger').innerHTML = buttonValue;
 
   function changeColors() {
     christmas = !christmas;
     const theme = christmas ? 'christmas' : '';
     sessionStorage.setItem('theme', theme);
+    let buttonValue = christmas ? '🙈' : '🎅';
+    document.getElementById('themeChanger').innerHTML = buttonValue;
     loadTheme();
   }
 </script>
