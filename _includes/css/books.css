@@ -24,7 +24,9 @@
 }
 
 @media (min-width: 1140px) {
-
+  .book-grid img {
+    height: 300px;
+  }
 }
 
 @media (min-width: 1900px) {
